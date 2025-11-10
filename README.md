@@ -86,20 +86,20 @@ cd FLEXI
 # or: cd fullstack-auth-app (if you renamed locally)
 🌸 2️⃣ Backend Setup
 bash
-Copy code
+
 cd backend
 npm install
 Now create a .env file manually inside the backend folder.
 You can copy this example:
 
 ini
-Copy code
+
 PORT=5000
 ADMIN_TOKEN=admintoken123
 Then start the backend server:
 
 bash
-Copy code
+
 npm run dev   # if nodemon is installed
 # OR
 npm start
@@ -108,25 +108,25 @@ node server.js
 If successful, you’ll see:
 
 arduino
-Copy code
+
 Server running on port 5000
 💐 3️⃣ Frontend Setup
 Open a new terminal in your project root and run:
 
 bash
-Copy code
+
 cd frontend
 npm install
 npm run dev
 If successful, Vite will show:
 
 arduino
-Copy code
+
 Local:   http://localhost:5173/
 🌍 4️⃣ Open in Browser
 Visit this URL in your browser:
 
 arduino
-Copy code
+
 http://localhost:5173
 Your Fleura Flower Delivery App will now be live locally 🌸
